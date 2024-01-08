@@ -6,4 +6,9 @@
   --colorTextAdditional: rgba(255, 255, 255, 0.6);
   --colorBackgroundPrimary: #2f303a;
   --colorBackgroundSecondary: #f5f4fa;
+  --fontTextPrimary: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--fontTextPrimary);
 }
