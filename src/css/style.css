@@ -8,7 +8,101 @@
   --colorBackgroundSecondary: #f5f4fa;
   --fontTextPrimary: "Roboto", sans-serif;
 }
-
+/*=======================GLOBAL=========================================*/
 body {
   font-family: var(--fontTextPrimary);
+  color: var(--colorTextPrimary);
+  font-size: 14px;
+  font-weight: 400;
+}
+/*========================HEADER===============================================*/
+.header-nav {
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+/*========================HERO===============================================*/
+.hero-title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 875; /* 187.5% */
+  letter-spacing: 0.96px;
+}
+
+/*========================ADVANTAGES===============================================*/
+.advantages-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.advantages-text {
+  color: var(--colorTextSecondary);
+  line-height: 1, 71429;
+  letter-spacing: 0.42px;
+}
+/*========================WORK===============================================*/
+.work-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+/*========================TEAM===============================================*/
+.team-name {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+.team-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+.team-text {
+  color: var(--colorTextSecondary);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+}
+/*========================PORTFOLIO===============================================*/
+.portfolio-nav {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1, 625;
+  letter-spacing: 0.48px;
+}
+
+/*========================PROJECT===============================================*/
+.project-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2, 00px;
+  letter-spacing: 1.08px;
+}
+.project-text {
+  color: var(--colorTextSecondary);
+  font-size: 16px;
+  line-height: 1, 875;
+  letter-spacing: 0.48px;
+}
+
+/*========================FOOTER===============================================*/
+
+.footer-address {
+  color: var(--colorTextTertiary);
+  line-height: 1, 71429;
+  letter-spacing: 0.42px;
+}
+.footer-link {
+  color: var(--colorTextAdditional);
+  line-height: 1, 71429;
+  letter-spacing: 0.42px;
 }
