@@ -16,18 +16,35 @@ body {
   font-weight: 400;
 }
 /*========================HEADER===============================================*/
-.header-nav {
+.nav-link {
   font-weight: 500;
   letter-spacing: 0.28px;
 }
+.nav-link:hover {
+  color: var(--colorHover);
+}
+
+.contact-link {
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+.contact-link:hover {
+  color: var(--colorHover);
+}
 /*========================HERO===============================================*/
 .hero-title {
-  color: #fff;
-  font-family: Roboto;
+  color: var(--colorTextTertiary);
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 1, 875; /* 187.5% */
+  line-height: 1.875; /* 187.5% */
+  letter-spacing: 0.96px;
+}
+.hero-button {
+  color: var(--colorTextTertiary);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1, 875px; /* 187.5% */
   letter-spacing: 0.96px;
 }
 
@@ -71,26 +88,24 @@ body {
   letter-spacing: 0.48px;
 }
 /*========================PORTFOLIO===============================================*/
-.portfolio-nav {
+.navigation-button {
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1, 625;
+  line-height: 1.625;
   letter-spacing: 0.48px;
 }
 
-/*========================PROJECT===============================================*/
 .project-title {
   font-size: 18px;
   font-weight: 700;
-  line-height: 2, 00px;
+  line-height: 2px;
   letter-spacing: 1.08px;
 }
 .project-text {
   color: var(--colorTextSecondary);
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.875;
   letter-spacing: 0.48px;
 }
 
@@ -98,11 +113,11 @@ body {
 
 .footer-address {
   color: var(--colorTextTertiary);
-  line-height: 1, 71429;
+  line-height: 1.71;
   letter-spacing: 0.42px;
 }
 .footer-link {
   color: var(--colorTextAdditional);
-  line-height: 1, 71429;
+  line-height: 1.71;
   letter-spacing: 0.42px;
 }
