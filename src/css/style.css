@@ -15,7 +15,19 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*========================HEADER===============================================*/
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 .nav-link {
   font-weight: 500;
   letter-spacing: 0.28px;
@@ -31,7 +43,14 @@ body {
 .contact-link:hover {
   color: var(--colorHover);
 }
+.portfolio {
+  padding-top: 30px;
+}
 /*========================HERO===============================================*/
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 .hero-title {
   color: var(--colorTextTertiary);
   font-size: 16px;
@@ -49,6 +68,9 @@ body {
 }
 
 /*========================ADVANTAGES===============================================*/
+.advantages {
+  padding-top: 95px;
+}
 .advantages-title {
   font-size: 14px;
   font-weight: 700;
@@ -61,6 +83,10 @@ body {
   letter-spacing: 0.42px;
 }
 /*========================WORK===============================================*/
+.work {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
 .work-title {
   text-align: center;
   font-size: 36px;
@@ -68,6 +94,10 @@ body {
   letter-spacing: 1.08px;
 }
 /*========================TEAM===============================================*/
+.team {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
 .team-name {
   text-align: center;
   font-size: 36px;
@@ -88,6 +118,11 @@ body {
   letter-spacing: 0.48px;
 }
 /*========================PORTFOLIO===============================================*/
+.portfolio-nav {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
 .navigation-button {
   text-align: center;
   font-size: 16px;
@@ -110,6 +145,10 @@ body {
 }
 
 /*========================FOOTER===============================================*/
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .footer-address {
   color: var(--colorTextTertiary);
