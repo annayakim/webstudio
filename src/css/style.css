@@ -178,6 +178,7 @@ body {
   letter-spacing: 0.48px;
 }
 /*========================PORTFOLIO===============================================*/
+
 .portfolio-nav {
   padding-top: 95px;
   padding-bottom: 95px;
@@ -208,6 +209,7 @@ body {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--colorBackgroundPrimary);
 }
 .footer-img {
   margin: 10px;
