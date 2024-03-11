@@ -179,11 +179,18 @@ body {
 }
 /*========================PORTFOLIO===============================================*/
 
-.portfolio-nav {
+.portfolio {
   padding-top: 95px;
   padding-bottom: 95px;
 }
-
+.navigation {
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+}
+.navigation-item {
+  margin-bottom: 50px;
+}
 .navigation-button {
   text-align: center;
   font-size: 16px;
@@ -191,12 +198,20 @@ body {
   line-height: 1.625;
   letter-spacing: 0.48px;
 }
-
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+.project-img {
+  margin-bottom: 20px;
+}
 .project-title {
   font-size: 18px;
   font-weight: 700;
-  line-height: 2px;
+  line-height: 2;
   letter-spacing: 1.08px;
+  margin-bottom: 4px;
 }
 .project-text {
   color: var(--colorTextSecondary);
