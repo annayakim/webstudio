@@ -102,6 +102,9 @@ body {
 .advantages {
   padding-top: 95px;
 }
+.advantages-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
 .advantages-list {
   display: flex;
   justify-content: space-between;
@@ -131,9 +134,15 @@ body {
   letter-spacing: 1.08px;
   margin-bottom: 50px;
 }
-.work-photo {
+.work-photos {
   display: flex;
   column-gap: 30px;
+}
+.work-photo {
+  flex-basis: calc((100% - 60px) / 3);
+}
+.work-img {
+  width: 100%;
 }
 /*========================TEAM===============================================*/
 .team {
@@ -157,10 +166,12 @@ body {
   background-color: var(--colorTextTertiary);
   padding-bottom: 30px;
   border-radius: 0 0 4px 4px;
+  flex-basis: calc((100% - 90px) / 4);
 }
 .employee-img {
   max-width: 100%;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .employee-title {
@@ -198,6 +209,9 @@ body {
   line-height: 1.625;
   letter-spacing: 0.48px;
 }
+.project {
+  flex-basis: calc((100% - 60px) / 3);
+}
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -205,6 +219,7 @@ body {
 }
 .project-img {
   margin-bottom: 20px;
+  width: 100%;
 }
 .project-title {
   font-size: 18px;
