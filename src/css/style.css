@@ -68,6 +68,13 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--colorBackgroundPrimary);
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      to right,
+      rgb(47, 48, 58, 0.4),
+      rgb(47, 48, 58, 0.4)
+    ),
+    url(../img/Img.header.jpg);
 }
 .hero-container {
   display: flex;
@@ -190,8 +197,9 @@ body {
   padding-bottom: 30px;
   border-radius: 0 0 4px 4px;
   flex-basis: calc((100% - 90px) / 4);
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
+
 .employee-img {
   max-width: 100%;
   margin-bottom: 30px;
