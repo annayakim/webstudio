@@ -53,12 +53,24 @@ body {
   color: var(--colorHover);
 }
 
-.contact-link {
+.contact-icon {
   font-weight: 500;
   letter-spacing: 0.28px;
 }
-.contact-link:hover {
+.contact-icon:hover {
   color: var(--colorHover);
+  display: flex;
+  align-items: center;
+  width: 16px;
+  height: 12px;
+}
+.social-img {
+  width: 20px;
+  height: 20px;
+}
+.social-list {
+  display: flex;
+  align-items: center;
 }
 .portfolio {
   padding-top: 30px;
